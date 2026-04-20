@@ -1,4 +1,5 @@
 {
+    "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
     "name": "nxsflow",
     "description": "NexusFlow Claude Code plugins — brand guidelines and continuous memory.",
     "owner": {
@@ -8,20 +9,31 @@
         {
             "name": "claude-memory",
             "description": "Build up a continuous learning mechanism for the Claude Code coding assistant with short-term and long-term memory.",
+            "category": "productivity",
+            "author": {
+                "name": "NexusFlow"
+            },
             "source": {
-                "source": "github",
-                "repo": "nxsflow/claude-memory",
+                "source": "url",
+                "url": "https://github.com/nxsflow/claude-memory.git",
                 "ref": "main"
-            }
+            },
+            "homepage": "https://github.com/nxsflow/claude-memory"
         },
         {
             "name": "nxsflow-brand",
             "description": "NexusFlow brand guideline skill — colors, typography, tone, logo rules.",
+            "category": "productivity",
+            "author": {
+                "name": "NexusFlow"
+            },
             "source": {
                 "source": "git-subdir",
-                "url": "github.com/nxsflow/brand",
-                "path": "plugin"
-            }
+                "url": "https://github.com/nxsflow/brand.git",
+                "path": "plugin",
+                "ref": "main"
+            },
+            "homepage": "https://github.com/nxsflow/brand"
         }
     ]
 }
