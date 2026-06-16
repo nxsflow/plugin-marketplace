@@ -34,6 +34,20 @@
                 "ref": "main"
             },
             "homepage": "https://github.com/nxsflow/brand"
+        },
+        {
+            "name": "nxf-workflow",
+            "description": "NexusFlow development-loop skills — plan the next task, review the PR, mitigate findings, and report to the PM. Stack-agnostic review; uses nexus-flow (nxf) as the issue tracker.",
+            "category": "productivity",
+            "author": {
+                "name": "NexusFlow"
+            },
+            "source": {
+                "source": "url",
+                "url": "https://github.com/nxsflow/nxf-workflow.git",
+                "ref": "main"
+            },
+            "homepage": "https://github.com/nxsflow/nxf-workflow"
         }
     ]
 }
