@@ -1,6 +1,6 @@
 {
     "name": "nxsflow-plugin-marketplace",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "private": true,
     "description": "Index-only Claude Code plugin marketplace for NexusFlow.",
     "scripts": {
